@@ -1,0 +1,23 @@
+.header__content {
+    background: pink;
+    height: 112px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.header__logo-image {
+    width: 155px;
+    height: 60px;
+}
+.header__menu__nav {
+    display:flex;
+    justify-content: space-between;
+}
+.header__menu__list {
+    list-style: none;
+    padding: 0;
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+}
