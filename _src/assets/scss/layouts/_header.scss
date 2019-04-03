@@ -1,23 +1,33 @@
 .header__content {
-    background: pink;
-    height: 112px;
-    display: flex; 
+    text-align: center;
+    padding-top: 10px;
+    @media all and (min-width:768px){
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    }
 }
 
-.header__logo-image {
-    width: 155px;
-    height: 60px;
-}
-.header__menu__nav {
-    display:flex;
-    justify-content: space-between;
-}
 .header__menu__list {
-    list-style: none;
     padding: 0;
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    
 }
-.header__menu {
-    display: flex;
-    align-items: center;
+
+.header__menu__list-item-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-menu;
+    font-family: $rubik;
+    font-size: 16px;
+    text-align: center;
+    @media all and (min-width:768px){
+        margin-left: 20px;
+    }
+}
+.header__logo {
+    margin: 0;
 }
